@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var toBeSorted [10]int = [10]int{1, 3, 2, 4, 8, 6, 5, 7, 2, 0}
+var toBeSorted [10]int = [10]int{1, 5, 2, 8, 8, 6, 9, 2, 7, 3}
 
 func bubbleSort(input [10]int) {
 	n := len(input)
